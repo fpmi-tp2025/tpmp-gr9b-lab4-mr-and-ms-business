@@ -1,0 +1,39 @@
+# Скомпилированный бинарный файл
+orangerie_app
+*.exe
+*.out
+
+# Объектные файлы и промежуточные файлы сборки
+*.o
+
+# Файлы логов и временные файлы
+*.log
+*.tmp
+
+# Временные файлы редакторов и резервные копии
+*~
+*.swp
+*.swo
+
+# Файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Каталоги настроек IDE и редакторов
+.vscode/
+.idea/
+*.iml
+
+# Сборочные и выходные директории
+build/
+dist/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Файлы, генерируемые системами контроля версий или тестовыми утилитами
+node_modules/
+coverage/
